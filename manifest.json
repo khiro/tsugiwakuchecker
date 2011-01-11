@@ -1,0 +1,19 @@
+{
+  "name": "NicoLiveTsugiWakuChecker",
+  "version": "0.1",
+  "description": "Auto checking NicoLive Tsugi Waku",
+  "options_page": "options.html",
+  "permissions": [
+    "tabs",
+     "http://live.nicovideo.jp/watch/*",
+     "http://com.nicovideo.jp/community/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://live.nicovideo.jp/watch/*"],
+      "js": ["content.js"],
+      "all_frames": true
+    }
+  ],
+  "background_page": "background.html"
+}
