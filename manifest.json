@@ -1,7 +1,7 @@
 {
-  "name": "NicoLiveTsugiWakuChecker",
+  "name": "NicoNamaTsugiWakuChecker",
   "version": "0.1",
-  "description": "Auto checking NicoLive Tsugi Waku",
+  "description": "Auto checking NicoNama Tsugi Waku",
   "options_page": "options.html",
   "permissions": [
     "tabs",
